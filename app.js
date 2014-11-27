@@ -6,13 +6,13 @@ myapp.controller('myctrl', function ($scope) {
 
   $scope.chartTypes = [
     //{"id": "line", "title": "Line"},
-    {"id": "spline", "title": "Smooth line"},
+    //{"id": "spline", "title": "Smooth line"},
     //{"id": "area", "title": "Area"},
     //{"id": "areaspline", "title": "Smooth area"},
     //{"id": "column", "title": "Column"},
     //{"id": "bar", "title": "Bar"},
     //{"id": "pie", "title": "Pie"},
-    //{"id": "scatter", "title": "Scatter"}
+    {"id": "scatter", "title": "Scatter"}
   ];
 
   $scope.dashStyles = [
